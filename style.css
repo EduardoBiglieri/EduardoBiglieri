@@ -1,40 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #7F27FF;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem{
-    width: 20%;
-}
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
-}
-
-.robotica-imagem {
-    width: 25%;
-}
-
-.robotica {
-    background-image: linear-gradient(#7F27FF, #9F70FD);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.robotica-div-conteudo{
-    width: 35%;
-}
-
+<div class="profissao-div">
+<img class="profissao-imagem" src="Gabi.jpg" alt="foto ">
+<h3 class="profissao-nome">Nome Imagem 02</h3>
+<a href="https://www.linkedin.com"><img class="profissao-icone"
+src="img/linkedin.png" alt="icone linkedin"></a>
+<a
+href="https://www.instagram.com"><img
+class="profissao-icone" src="img/instagram.png"
+alt="icone instagram"></a>
+</div>
+<div class="profissao-div">
+<img class="profissao-imagem" src="Liz.jpg" alt="foto">
+<h3 class="profissao-nome">Nome Imagem 03</h3>
+<a href="https://www.linkedin.com"><img class="profissao-icone"
+src="img/linkedin.png" alt="icone linkedin"></a>
+<a href="https://www.instagram.com"><img
+class="profissao-icone" src="img/instagram.png"
+alt="icone instagram"></a>
+</div>
+<span></span>
+<span></span>
+</section>
+<footer class="rodape">
+<p> <strong>Samuel Freitas</strong></p>
+</footer>
+</body>
+</html>
